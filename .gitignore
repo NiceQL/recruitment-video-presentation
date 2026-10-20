@@ -1,0 +1,50 @@
+# Local analysis workspaces and dependency caches
+/analysis/
+/.analysis-deps/
+/github-upload/
+/build/
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.cache/
+
+# Original reference videos and derived audio are not part of this package
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.mp3
+*.m4a
+/audio_chunks/
+asr_*.json
+
+# Intermediate extraction and rendering output
+frame_*.jpg
+captions_*.jpg
+contact_*.jpg
+motion_*.jpg
+detail_*.jpg
+detail_sheet_*.jpg
+/tmp/
+/temp/
+*.tmp
+*.log
+
+# Office lock files and operating-system metadata
+~$*
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Machine-specific secrets and settings
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+*.pem
+*.key
